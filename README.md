@@ -4,11 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Installation
 
-1. Install NPM packages
+1. Enter in a folder
+   ```sh
+   cd kenetic-test
+   ```
+2. Install NPM packages
    ```sh
    npm install
    ```
-1. Start app
+3. Start app
    ```sh
    npm start
    ```
