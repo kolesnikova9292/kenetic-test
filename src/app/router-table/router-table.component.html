@@ -1,0 +1,22 @@
+<p-table [value]="routes" class="table">
+    <ng-template pTemplate="header">
+        <tr>
+            <th pSortableColumn="address">Адрес назначения
+                <p-sortIcon field="address"></p-sortIcon>
+            </th>
+            <th pSortableColumn="gateway">Шлюз
+                <p-sortIcon field="gateway"></p-sortIcon>
+            </th>
+            <th pSortableColumn="interface">Интерфейс
+                <p-sortIcon field="interface"></p-sortIcon>
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product>
+        <tr>
+            <td>{{product.address}}</td>
+            <td>{{product.gateway}}</td>
+            <td>{{product.interface}}</td>
+        </tr>
+    </ng-template>
+</p-table>
